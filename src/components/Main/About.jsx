@@ -5,19 +5,19 @@ import "./about.css";
 const snsArr = [
   {
     name: "Github",
-    src: "/icons/Github.svg",
+    src: `${process.env.PUBLIC_URL}/icons/Github.svg`,
   },
   {
     name: "Twitter",
-    src: "/icons/Twitter.svg",
+    src: `${process.env.PUBLIC_URL}/icons/Twitter.svg`,
   },
   {
     name: "Facebook",
-    src: "/icons/Facebook.svg",
+    src: `${process.env.PUBLIC_URL}/icons/Facebook.svg`,
   },
   {
     name: "Instagram",
-    src: "/icons/Instagram.svg",
+    src: `${process.env.PUBLIC_URL}/icons/Instagram.svg`,
   },
 ];
 function About({ user }) {

@@ -13,7 +13,10 @@ function Header() {
       <div className="max-width">
         <h1>
           <Link to=".">
-            <img src={"/icons/Logo.svg"} alt="my blog" />
+            <img
+              src={`${process.env.PUBLIC_URL}/icons/logo.svg`}
+              alt="my blog"
+            />
           </Link>
         </h1>
         {login ? (

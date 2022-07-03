@@ -5,7 +5,10 @@ function RegisterBtn() {
     <>
       <li class="only-pc">
         <a href="#" className="button gray">
-          <img src="/icons/icon-register.svg" alt="" />
+          <img
+            src={`${process.env.PUBLIC_URL}/icons/icon-register.svg`}
+            alt=""
+          />
           <span>Register</span>
         </a>
       </li>

@@ -13,7 +13,11 @@ function View() {
               <dl className="author-wrap">
                 <dt className="a11y-hidden">Author</dt>
                 <dd className="author">
-                  <img src="images/profile.jpg" alt="" /> Chilli
+                  <img
+                    src={`${process.env.PUBLIC_URL}/images/profile.jpg`}
+                    alt=""
+                  />{" "}
+                  Chilli
                 </dd>
                 <dt className="a11y-hidden">Created</dt>
                 <dd className="created">2022.05.25</dd>
@@ -50,7 +54,10 @@ function View() {
                   Placeat, eaque! Exercitationem est facilis dolor quas odio cum
                   incidunt repudiandae vel.
                 </p>
-                <img src="images/post-background6.jpg" alt="" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/post-background6.jpg`}
+                  alt=""
+                />
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Inventore illum nostrum perferendis voluptas, voluptate soluta

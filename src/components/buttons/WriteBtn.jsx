@@ -5,7 +5,10 @@ function WriteBtn() {
     <>
       <li>
         <a href="#" className="button">
-          <img src={"/icons/icon-modify-white.svg"} alt="" />
+          <img
+            src={`${process.env.PUBLIC_URL}/icons/icon-modify-white.svg`}
+            alt=""
+          />
           <span>Write</span>
         </a>
       </li>

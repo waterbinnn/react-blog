@@ -7,6 +7,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import MainPage from "./components/pages/MainPage";
 import PostView from "./components/pages/PostView";
+
 import data from "../src/database/data.json";
 
 function App() {

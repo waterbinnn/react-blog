@@ -7,7 +7,7 @@ function Logouted({ setLogin }) {
     <ul>
       <Button
         style="button gray"
-        src={"icons/icon-login.svg"}
+        src={`${process.env.PUBLIC_URL}/icons/icon-login.svg`}
         title={"Login"}
         handleLogin={() => {
           setLogin(true);

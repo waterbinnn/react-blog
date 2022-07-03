@@ -1,6 +1,7 @@
 .banner {
 	position: relative;
-	background: url('/public/images/background.jpg') no-repeat 50% 50% / cover;
+	background: url('/public/images/background.jpg') 
+	no-repeat 50% 50% / cover;
 	height: 27em;
 	margin-bottom: -7em;
 }

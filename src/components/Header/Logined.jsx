@@ -7,14 +7,13 @@ function Logined({ setProfileImg, setLogin }) {
     <ul>
       <li className="profile-img">
         <a href="#">
-          {/* <img src="images/profile.jpg" alt="" /> */}
           <img src={setProfileImg} alt="" />
         </a>
       </li>
       <WriteBtn />
       <Button
         style="button white"
-        src={"/icons/icon-logout.svg"}
+        src={`${process.env.PUBLIC_URL}/icons/icon-logout.svg`}
         title={"Logout"}
         handleLogin={() => {
           setLogin(false);
