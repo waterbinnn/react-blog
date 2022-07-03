@@ -1,4 +1,4 @@
-import "./banner.css";
+import styles from "./banner.module.css";
 
 function Banner({ mainTitle, subTitle, description }) {
   return (
@@ -8,11 +8,11 @@ function Banner({ mainTitle, subTitle, description }) {
         backgroundImage: `url(${process.env.PUBLIC_URL}/images/background.jpg)`,
       }}
     >
-      <div className="max-width">
-        <div className="banner-contents">
-          <p className="sub-text">{subTitle}</p>
-          <p className="main-text">{mainTitle}</p>
-          <p className="description">{description}</p>
+      <div className={styles["max-width"]}>
+        <div className={styles["banner-contents"]}>
+          <p className={styles["sub-text"]}>{subTitle}</p>
+          <p className={styles["main-text"]}>{mainTitle}</p>
+          <p className={styles["description"]}>{description}</p>
         </div>
       </div>
     </div>
