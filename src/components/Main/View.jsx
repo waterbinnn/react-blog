@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import LikeBtn from "../buttons/LikeBtn";
 import "../../assets/css/wrapbox.css";
 import "./view.css";
