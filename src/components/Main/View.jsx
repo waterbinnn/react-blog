@@ -85,9 +85,9 @@ function View() {
                   <span className="a11y-hidden">delete</span>
                 </button>
               </div>
-              <a href="./" className="btn-back">
+              <Link to="/react-blog" className="btn-back">
                 <span className="a11y-hidden">Back</span>
-              </a>
+              </Link>
             </div>
           </section>
         </div>
