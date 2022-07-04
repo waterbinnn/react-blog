@@ -1,4 +1,3 @@
-import { Year, Month } from "react-live-clock";
 import "./banner.css";
 
 export default function PostBanner({ background }) {

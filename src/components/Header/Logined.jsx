@@ -1,13 +1,14 @@
 import React from "react";
 import WriteBtn from "../buttons/WriteBtn";
 import Button from "../buttons/Button";
+import Logouted from "./Logouted";
 
 function Logined({ setProfileImg, setLogin }) {
   return (
     <ul>
       <li className="profile-img">
         <a href="#">
-          <img src={setProfileImg} alt="" />
+          <img src={process.env.PUBLIC_URL + setProfileImg} alt="" />
         </a>
       </li>
       <WriteBtn />

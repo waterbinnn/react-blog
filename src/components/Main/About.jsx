@@ -24,7 +24,11 @@ function About({ user }) {
   return (
     <aside className="about">
       <h2>About Me</h2>
-      <img className="user-profile" src={user.profileImg} alt="프로필이미지" />
+      <img
+        className="user-profile"
+        src={process.env.PUBLIC_URL + user.profileImg}
+        alt="프로필이미지"
+      />
       <p className="user-name">{user.name}</p>
       <p className="user-description">{user.userInfo}</p>
 

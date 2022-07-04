@@ -17,7 +17,7 @@ function Post({
   return (
     <Link to="/post-view" className="post">
       <article>
-        <img src={thumbnail} alt="" />
+        <img src={process.env.PUBLIC_URL + thumbnail} alt="" />
         <div className="contents-wrap">
           <dl className="category">
             <dt className="ally-hidden">Category</dt>
@@ -31,7 +31,8 @@ function Post({
           <dl className="author-wrap">
             <dt className="a11y-hidden">Author</dt>
             <dd className="author">
-              <img src={profileImg} alt="" /> {userName}
+              <img src={process.env.PUBLIC_URL + profileImg} alt="" />
+              {userName}
             </dd>
             <dt className="a11y-hidden">Created</dt>
             <dd className="created">{created}</dd>
