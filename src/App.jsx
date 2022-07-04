@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
       <Header profileImg={data.users[0].profileImg} />
       <Routes>
-        <Route path="/" element={<MainPage data={data} />} />
+        <Route path="/react-blog" element={<MainPage data={data} />} />
         <Route path="/post-view" element={<PostView data={data} />} />
       </Routes>
       <Footer />

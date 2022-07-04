@@ -1,6 +1,6 @@
 import "./banner.css";
 
-export default function PostBanner({ background }) {
+export default function PostBanner() {
   return (
     <div
       className="banner"

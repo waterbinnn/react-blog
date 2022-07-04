@@ -12,9 +12,9 @@ function Header() {
     <header>
       <div className="max-width">
         <h1>
-          <Link to=".">
+          <Link to="/react-blog">
             <img
-              src={`${process.env.PUBLIC_URL}/icons/logo.svg`}
+              src={`${process.env.PUBLIC_URL}/icons/Logo.svg`}
               alt="my blog"
             />
           </Link>

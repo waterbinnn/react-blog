@@ -1,4 +1,5 @@
-{ "homepage": "https://waterbinnn.github.io/react-blog/",
+{
+  "homepage": "https://waterbinnn.github.io/react-blog/",
   "name": "react-blog",
   "version": "0.1.0",
   "private": true,
@@ -45,5 +46,4 @@
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
- 
 }
