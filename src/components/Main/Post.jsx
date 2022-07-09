@@ -6,6 +6,7 @@ import "./category.css";
 import "./author.css";
 
 function Post({
+  id,
   thumbnail,
   title,
   category,
@@ -15,7 +16,7 @@ function Post({
   contents,
 }) {
   return (
-    <Link to="/post-view" className="post">
+    <Link to={`/post/${id}`} className="post">
       <article>
         <img src={process.env.PUBLIC_URL + thumbnail} alt="" />
         <div className="contents-wrap">

@@ -5,10 +5,10 @@ import "./post.css";
 import "./main.css";
 import "./posts.css";
 
-const Main = ({ data }) => {
+const Main = ({ data}) => {
   return (
     <main>
-      <Posts data={data} posts={data.posts} />
+      <Posts data={data}  posts={data.posts} />
     </main>
   );
 };

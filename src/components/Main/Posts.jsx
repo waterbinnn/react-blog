@@ -14,6 +14,7 @@ function Posts({ data, posts }) {
             return (
               <li key={x.id}>
                 <Post
+                  id={x.id}
                   thumbnail={x.thumbnail}
                   title={x.title}
                   mainBg={x.mainBg}
